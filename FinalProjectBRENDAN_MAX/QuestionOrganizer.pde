@@ -24,18 +24,40 @@ class questionClass {
     //First intro Q's
     QList.get("intro").add("Enter a type of car (singular): ");
     QList.get("intro").add("Enter a type of music (singular): ");
-
+    
     //Second intro Q's 
     QList.get("intro").add("Enter a type hated land animal (singular): ");
     QList.get("intro").add("Enter why you hate that animal: ");
-
+    
     //Third intro Q's
     QList.get("intro").add("Enter a favirote space vehical (singular): ");
     QList.get("intro").add("Enter your favirote thing about space (singular): ");
-
-    //4th intro Q's
-    QList.get("intro").add("Enter a smell (singular): ");
+    
+       
+    //first middle
     QList.get("intro").add("Enter a color (singular): ");
+    QList.get("intro").add("Enter a body part (singular): ");
+    
+    //2nd middle
+    QList.get("intro").add("Enter a bird that flys (singular): ");
+    QList.get("intro").add("Enter your favirote land animal (plural): ");
+     
+    //3rd middle
+    QList.get("intro").add("Enter your most hated candy (plural): ");
+    QList.get("intro").add("Enter favirote mnt. (singular): ");
+    
+    //1st end
+    QList.get("intro").add("Enter a city (singular): ");
+    QList.get("intro").add("Enter a color (singular): ");
+    
+    //2st end
+    QList.get("intro").add("Enter a state (singular): ");
+    QList.get("intro").add("Enter your favirote candy (plural): ");
+    
+    //3st end
+    QList.get("intro").add("Enter a color (singular): ");
+    QList.get("intro").add("Enter a dance (singular): ");
+    
   }
 
   void askFirstQ(int num) {
