@@ -1,0 +1,36 @@
+final String INIT_MSG="Start typing";
+String msg=INIT_MSG;
+
+void setup() {
+  size(600, 400);
+  
+}
+
+void draw() {
+  background(0);
+  fill(255);
+  text(msg, 100, 100);
+  
+  fill(0,250,0);
+  text("Mouse click to reset message", 100, height*0.8);
+}
+
+void mousePressed() {
+  msg=INIT_MSG;  //Reset message, prepare for a new message
+}
+
+void keyPressed() {
+
+  //Prepare when writing a new message. Next resets message container
+  if (msg.equals(INIT_MSG)) {
+    msg="";
+  }
+
+//Detects only alphanumeric chars
+  if ( (key>='a' && key<='z') ||
+    (key>='a' && key<='z') ||
+    (key>='0' && key<='9') 
+    ) {
+    msg+=key;
+  }
+}
